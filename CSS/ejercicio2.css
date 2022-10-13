@@ -27,7 +27,7 @@ body header nav:first-child{
 h1{
     background-image: url(../images/header-background.png);
     color: rgb(255, 255, 255);
-    background-repeat: repeat;   
+    background-repeat: repeat;
 }
 
 /*Alinear imagen*/
@@ -37,10 +37,10 @@ h1 img{
 
 /*Imagen Principal*/
 article div:first-child{
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 0.5em;
-    margin: 1em 4em 1em 4em; 
+    margin: 1em 4em 1em 4em;
 }
 
 /*  Borde Imagen*/
@@ -68,16 +68,16 @@ article section p{
     border-right: solid 0.1em rgb(0, 0, 0);
     border-left: solid 0.1em rgb(0, 0, 0);
     margin: 0 4em 0 4em;
-    padding: 0.5em;   
+    padding: 0.5em;
 }
 
 /*Footer*/
 footer{
     background-color: rgb(33, 54, 66);
     color: rgb(255, 255, 255);
-    margin: 1em 4em 1em 4em; 
+    margin: 1em 4em 1em 4em;
     padding: 0.5em;
-} 
+}
 
 /*Estilos de navegación*/
 div ul li{
@@ -97,7 +97,7 @@ article section figure{
     background-color: rgb(255, 255, 255);
     display: block;
     margin: 0 4em 1em 4em;
-    padding: 0.5em;  
+    padding: 0.5em;
     border-top: solid 0.1em rgb(0, 0, 0);
     border-right: solid 0.1em rgb(0, 0, 0);
     border-left: solid 0.1em rgb(0, 0, 0);
@@ -106,7 +106,7 @@ article section figure{
 
 article section div ul{
     background-color: rgb(33, 54, 66);
-    margin: 0 4em 1em 4em; 
+    margin: 0 4em 1em 4em;
     padding: 0.4em;
 }
 
@@ -148,4 +148,5 @@ p em{
     font-size: 0.875rem;
     color: #728b96;
     font-style: italic;
+    
 }

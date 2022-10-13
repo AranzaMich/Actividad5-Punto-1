@@ -1,0 +1,151 @@
+/* Imagen fondo*/
+body{
+    font-family: Georgia, Cambria, "Times New Roma", serif;
+    background-image: url(../images/background-pattern.png);
+    font-size: 100%;
+}
+
+/*Navegacion Principal*/
+body header nav:first-child{
+    background-color: rgb(33, 54, 66);
+    text-align: end;
+    padding: 0.3em;
+}
+
+.containerNav{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+/*Navegacion Secundaria*/
+ body header nav:nth-child(n+2){
+    background-color: rgb(223, 232, 237);
+    padding: 0.3em;
+}
+
+/*Titulo Principal*/
+h1{
+    background-image: url(../images/header-background.png);
+    color: rgb(255, 255, 255);
+    background-repeat: repeat;   
+}
+
+/*Alinear imagen*/
+h1 img{
+    margin-left: 4em;
+}
+
+/*Imagen Principal*/
+article div:first-child{
+    background-color: rgb(255, 255, 255); 
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em 4em 1em 4em; 
+}
+
+/*  Borde Imagen*/
+article div img{
+    padding: 0.25em;
+    border: solid 1.5px rgb(167, 171, 173);
+    justify-content: center;
+}
+
+/*Títulos Secundarios*/
+h3{
+    color:rgb(255, 255, 255);
+    background-image: url(../images/header-background.png);
+    background-repeat: repeat;
+    border-top: solid 0.1em rgb(0, 0, 0);
+    border-right: solid 0.1em rgb(0, 0, 0);
+    border-left: solid 0.1em rgb(0, 0, 0);
+    padding: 0.5em;
+    margin: 0 4em 0 4em;
+}
+
+/* Informacion de las secciones */
+article section p{
+    background-color:rgb(255, 255, 255);
+    border-right: solid 0.1em rgb(0, 0, 0);
+    border-left: solid 0.1em rgb(0, 0, 0);
+    margin: 0 4em 0 4em;
+    padding: 0.5em;   
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(33, 54, 66);
+    color: rgb(255, 255, 255);
+    margin: 1em 4em 1em 4em; 
+    padding: 0.5em;
+} 
+
+/*Estilos de navegación*/
+div ul li{
+    margin: 0 0 0.5em 0;
+    list-style: none;
+    display: inline;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0.5em 0;
+}
+
+/*Secciones y figuras*/
+article section figure{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 4em 1em 4em;
+    padding: 0.5em;  
+    border-top: solid 0.1em rgb(0, 0, 0);
+    border-right: solid 0.1em rgb(0, 0, 0);
+    border-left: solid 0.1em rgb(0, 0, 0);
+    border-bottom: solid 0.1em rgb(0, 0, 0);
+}
+
+article section div ul{
+    background-color: rgb(33, 54, 66);
+    margin: 0 4em 1em 4em; 
+    padding: 0.4em;
+}
+
+/*Estilo cuando le das click*/
+a:hover{
+    color:rgb(0, 0, 0);
+}
+
+ul a{
+    color: rgba(54, 178, 212, 0.778);
+}
+
+/*Imagen email*/
+a[href^="mailto"] {
+    background: url(../images/email.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*Imagen edit*/
+ section li a[href^="#E"] {
+    background: url(../images/edit.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*Imagen bandera*/
+ section li a[href^="#F"] {
+    background: url(../images/flag.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*Fondo imagenes*/
+article section div ul li{
+    background-color:  rgb(223, 232, 237);
+    border-radius: 0.1em;
+    padding: 0.1em;
+}
+
+p em{
+    font-size: 0.875rem;
+    color: #728b96;
+    font-style: italic;
+}
